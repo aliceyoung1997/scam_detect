@@ -20,3 +20,4 @@ if __name__ == "__main__":
     text = "Congratulations! You have won a $1,000 gift card. Click here to claim your prize immediately: http://fake-link.com. Act fast, offer expires today!"
     result = predict_text("phishing_detector.pkl", "preprocessed_data.pkl", text)
     print(f"Prediction: {result}")
+

@@ -1,3 +1,4 @@
+
 from fastapi import FastAPI
 from pydantic import BaseModel
 from predict import predict_text
@@ -15,3 +16,4 @@ def predict(input: Text):
         return {"prediction": result}
     except Exception as e:
         return {"error": str(e)}
+
